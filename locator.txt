@@ -1,0 +1,36 @@
+admin login
+email: cy.get('#email')
+password: cy.get('#password')
+forgot password text: cy.get('a > .font-medium')
+sign in button: cy.get(':nth-child(3) > .rounded-md')
+
+
+creator:
+cy.get('[href="/apply/creators"] > .inline-flex')
+mengisi field email: cy.get('#email')
+menekan tombol let's start : cy.get('.inline-flex')
+mengisi field nama: cy.get('#name')
+mengisi field primary social channel denga field: cy.get(':nth-child(2) > :nth-child(1) > .css-b62m3t-container > .css-1wdxtoj-control > .css-l82r51-Gq > .css-1whw0ba-Gq')
+dropdown primary social channel:cy.get(':nth-child(2) > :nth-child(1) > .css-b62m3t-container > .css-1wdxtoj-control > .css-1rhhz3j-Gq > .css-1xc3v61-indicatorContainer > .css-tj5bde-Svg')	
+mengisi field link primary social channel: cy.get('#primarySocialLink')
+mengisi field current social channel dengan mengisi field: cy.get(':nth-child(4) > :nth-child(1) > .css-b62m3t-container > .css-1wdxtoj-control > .css-l82r51-Gq > .css-1whw0ba-Gq')
+mengisi field current social channel dengan dropdown: cy.get(':nth-child(4) > :nth-child(1) > .css-b62m3t-container > .css-1wdxtoj-control > .css-1rhhz3j-Gq > .css-1xc3v61-indicatorContainer > .css-tj5bde-Svg')
+mengisi field website (optional): cy.get('#website')
+ceklist term of use: cy.get('#termsOfServiceAgreement')
+menekan tombol apply: cy.get('.inline-flex')		
+
+
+
+supplier:
+cy.get('[href="/apply/suppliers"] > .inline-flex')
+name: cy.get('#name')
+supplier name: cy.get('#supplierName')
+multiple brands ceklist: cy.get('.flex-row > input')
+brand 1: cy.get('#brands\.0')
+brand 2: cy.get('#brands\.1')
+brand 3: cy.get('#brands\.2')
+website: cy.get('#website')
+instagram link: cy.get('#instagramLink')
+company name if different from supplier name (optional): cy.get('#companyName')
+term of use: cy.get('#termsOfServiceAgreement')
+apply button: cy.get('.inline-flex')
