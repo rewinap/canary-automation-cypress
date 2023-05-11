@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cypress-Canary-Automation
 This repository contains the test automation project include the srcipt, the vidio and the screenshot of the test script that has been run before. This automation has been connected to Cypress cloud so when it is run in our local, it will update directly the vidio, result and the screenshot of the test. The purpose of this automation project is to automate the end-to-end testing of the following features of the Cypress Canary application:
 Login Admin
@@ -108,3 +109,6 @@ We have also leveraged the Cypress Cloud for running and managing our tests. The
 ![image](https://github.com/rewinap/cypress-canary-automation/assets/70361569/c407a48f-8d5a-42d1-b986-71893d390250)
 ![image](https://github.com/rewinap/cypress-canary-automation/assets/70361569/4a766881-520b-41ef-b6a6-d935c22762bf)
 ![image](https://github.com/rewinap/cypress-canary-automation/assets/70361569/21368843-07ab-4aa3-9f9d-bd3959749140)
+=======
+# canary-automation-cypress
+>>>>>>> 4d45f9afc8376a01b1e5bf060f453fbddeb33fb8
